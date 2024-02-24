@@ -1,1 +1,1 @@
-# CSCE-633 Machine Learning
+# CSCE - 633 Machine Learning

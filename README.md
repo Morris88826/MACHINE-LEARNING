@@ -3,10 +3,10 @@
 ## Lectures
 ### Linear Models
 * [Linear Regression 1](./slides/Linear%20Models/Module%202%20-%20Lecture%204%20-%20Linear%20Regression%201.pdf)
-* Linear Regression 2
-* Linear Regression Optimization
-* Gradient Descent 1
-* Gradient Descent 2
+* [Linear Regression 2](./slides/Linear%20Models/Module%202%20-%20Lecture%206%20-%20Linear%20Regression%202.pdf)
+* [Linear Regression Optimization](./slides/Linear%20Models/Module%202%20-%20Lecture%207%20-%20Linear%20Regression%20Optimization.pdf)
+* [Gradient Descent 1](./slides/Linear%20Models/Module%202%20-%20Lecture%209%20-%20Gradient%20Descent%201.pdf)
+* [Gradient Descent 2](./slides/Linear%20Models/Module%202%20-%20Lecture%2010%20-%20Gradient%20Descent%202.pdf)
 
 ### Logistic Regression, Regularization, and Feature Selection
 

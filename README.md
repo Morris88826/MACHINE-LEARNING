@@ -14,7 +14,9 @@
 * [Regularization](./slides/%20Logistic%20Regression%2C%20Regularization%2C%20%26%20Feature%20Selection/Module%203%20-%20Lecture%2015%20-%20Regularization.pdf)
 
 ### Decision Trees, Random Forests, and Boosting
-
+* [Tree-Based Models](./slides/Decision%20Trees%2C%20Random%20Forests%2C%20%26%20Boosting/Module%204%20-%20Lecture%2016%20-%20Tree-based%20Models.pdf)
+* [Random Forest](./slides/Decision%20Trees%2C%20Random%20Forests%2C%20%26%20Boosting/Module%204%20-%20Lecture%2018%20-%20Random%20Forest.pdf)
+* [Boosting](./slides/Decision%20Trees%2C%20Random%20Forests%2C%20%26%20Boosting/Module%204%20-%20Lecture%2019%20-%20Boosting.pdf)
 
 ## Homeworks
 * Homework 1: [Linear Regression and Logistic Regression](./hw/hw1)

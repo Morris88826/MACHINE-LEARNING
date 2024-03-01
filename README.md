@@ -9,6 +9,9 @@
 * [Gradient Descent 2](./slides/Linear%20Models/Module%202%20-%20Lecture%2010%20-%20Gradient%20Descent%202.pdf)
 
 ### Logistic Regression, Regularization, and Feature Selection
+* [Logistic Regression 1](./slides/%20Logistic%20Regression%2C%20Regularization%2C%20%26%20Feature%20Selection/Module%203%20-%20Lecture%2012%20-%20Logistic%20Regression%201.pdf)
+* [Logistic Regression 2](./slides/%20Logistic%20Regression%2C%20Regularization%2C%20%26%20Feature%20Selection/Module%203%20-%20Lecture%2013%20-%20Logistic%20Regression%202.pdf)
+* [Regularization](./slides/%20Logistic%20Regression%2C%20Regularization%2C%20%26%20Feature%20Selection/Module%203%20-%20Lecture%2015%20-%20Regularization.pdf)
 
 ### Decision Trees, Random Forests, and Boosting
 

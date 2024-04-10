@@ -24,6 +24,10 @@
 * [SVM Optimization - Cont.](./slides/SVMs%20%26%20Kernels/Module%205%20-%20Lecture%2024%20-%20SVM%20Optimization.pdf)
 
 ### Neural Networks & Deep Learning
+* [Neural Networks](./slides/Neural%20Networks%20%26%20Deep%20Learning/Module%206%20-%20Lecture%2027%20-%20Neural%20Networks.pdf)
+* [Neural Networks Backprop](./slides/Neural%20Networks%20%26%20Deep%20Learning/Module%206%20-%20Lecture%2028%20-%20Neural%20Networks%20Backprop.pdf)
+* [Convolutional Neural Networks](./slides/Neural%20Networks%20%26%20Deep%20Learning/Module%206%20-%20Lecture%2029%20-%20Convolutional%20Neural%20Networks.pdf)
+* [Recurrent Neural Networks](./slides/Neural%20Networks%20%26%20Deep%20Learning/Module%206%20-%20Lecture%2030%20-%20Recurrent%20Neural%20Networks.pdf)
 
 ## Homeworks
 * Homework 1: [Linear Regression and Logistic Regression](./hw/hw1)

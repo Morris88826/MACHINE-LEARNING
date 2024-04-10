@@ -18,6 +18,12 @@
 * [Random Forest](./slides/Decision%20Trees%2C%20Random%20Forests%2C%20%26%20Boosting/Module%204%20-%20Lecture%2018%20-%20Random%20Forest.pdf)
 * [Boosting](./slides/Decision%20Trees%2C%20Random%20Forests%2C%20%26%20Boosting/Module%204%20-%20Lecture%2019%20-%20Boosting.pdf)
 
+### SVMs & Kernels
+
+### Neural Networks & Deep Learning
+
 ## Homeworks
 * Homework 1: [Linear Regression and Logistic Regression](./hw/hw1)
 * Homework 2: [Decision Trees, Random Forests, and Boosting](./hw/hw2)
+* Homework 3: [SVMs & Kernels](./hw/hw3)
+* Homework 4: [Neural Networks & Deep Learning](./hw/hw4)

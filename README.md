@@ -19,6 +19,9 @@
 * [Boosting](./slides/Decision%20Trees%2C%20Random%20Forests%2C%20%26%20Boosting/Module%204%20-%20Lecture%2019%20-%20Boosting.pdf)
 
 ### SVMs & Kernels
+* [Perception and Support Vector Machines](./slides/SVMs%20%26%20Kernels/Module%205%20-%20Lecture%2021%20-%20SVM1.pdf)
+* [SVM Optimization](./slides/SVMs%20%26%20Kernels/Module%205%20-%20Lecture%2022%20-%20SVM2.pdf)
+* [SVM Optimization - Cont.](./slides/SVMs%20%26%20Kernels/Module%205%20-%20Lecture%2024%20-%20SVM%20Optimization.pdf)
 
 ### Neural Networks & Deep Learning
 

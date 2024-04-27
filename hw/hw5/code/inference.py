@@ -85,14 +85,14 @@ if __name__ == "__main__":
     output_path = main(args.data_path, args.model_name)
 
     ##############################
-    best_result = "./results/Mu-Ruei_Tseng_preds_best.csv"
-    new_result = "./results/Mu-Ruei_Tseng_preds_{}.csv".format(args.model_name)
+    # best_result = "./results/Mu-Ruei_Tseng_preds_best.csv"
+    # new_result = "./results/Mu-Ruei_Tseng_preds_{}.csv".format(args.model_name)
 
-    best_df = pd.read_csv(best_result)
-    new_df = pd.read_csv(new_result)
+    # best_df = pd.read_csv(best_result)
+    # new_df = pd.read_csv(new_result)
 
-    acc = (best_df["label"] == new_df["label"]).mean()
-    print("Accuracy: ", acc)
+    # acc = (best_df["label"] == new_df["label"]).mean()
+    # print("Accuracy: ", acc)
 
     # show where the model is wrong
     # visualize(args.data_path, output_path, args.model_name)

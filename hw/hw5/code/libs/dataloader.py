@@ -1,15 +1,18 @@
 import os
+import torch
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from collections import defaultdict
-from torch.utils.data import Dataset, DataLoader, random_split
 from torchvision import transforms
+from torch.utils.data import Dataset, DataLoader, random_split
+
 
 class CustomMNIST(Dataset):
     def __init__(self, image_path, audio_path, label_path=None):
         self.images = np.load(image_path)
         self.audios = np.load(audio_path)
+
         self.image_size = (28, 28)
         self.audio_size = (39, 13)
 
@@ -20,39 +23,46 @@ class CustomMNIST(Dataset):
             self.labels = None
             self.num_classes = 10 # default number of classes for MNIST dataset
 
-        self.transform = transforms.Compose([
+        self.image_tfm = transforms.Compose([
             transforms.ToTensor(),
             transforms.Normalize((0.5,), (0.5,))
         ])
+
     def __len__(self):
         return self.images.shape[0]
     
     def __getitem__(self, idx):
         image = self.images[idx].reshape(self.image_size[0], self.image_size[1])
         audio = self.audios[idx].reshape(self.audio_size[0], self.audio_size[1])
-        audio = audio.T
 
-        image = self.transform(image).float()
+        image = self.image_tfm(image)
         if self.labels is not None:
             label = self.labels.iloc[idx, 1]
             return image, audio, label
         return image, audio
 
 class Loader:
-    def __init__(self, data_path, batch_size) -> None:
+    def __init__(self, data_path, batch_size, split_ratio = 0.7) -> None:
         train_image_path = os.path.join(data_path, "x_train_wr.npy")
         train_audio_path = os.path.join(data_path, "x_train_sp.npy")
         train_label_path = os.path.join(data_path, "y_train.csv")
 
         train_dataset = CustomMNIST(train_image_path, train_audio_path, train_label_path)
-        split_ratio = 0.8
         train_size = int(split_ratio * len(train_dataset))
-        val_size = len(train_dataset) - train_size
-        train_dataset, val_dataset = random_split(train_dataset, [train_size, val_size])
+        remaining_size = len(train_dataset) - train_size
+        val_size = remaining_size//2
+        test_size = remaining_size - val_size
 
+        # set the seed for reproducibility
+        torch.manual_seed(42)
+        train_dataset, val_dataset, test_dataset = random_split(train_dataset, [train_size, val_size, test_size])
+        print(f"Train size: {train_size}, Validation size: {val_size}, Test size: {test_size}")
+
+        # remove the seed
+        torch.seed()
         self.train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
         self.val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
-
+        self.test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
 if __name__ == "__main__":
     data_path = "./data"

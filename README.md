@@ -34,3 +34,4 @@
 * Homework 2: [Decision Trees, Random Forests, and Boosting](./hw/hw2)
 * Homework 3: [SVMs & Kernels](./hw/hw3)
 * Homework 4: [Neural Networks & Deep Learning](./hw/hw4)
+* Homework 5: [Multimodal Deep Learning](./hw/hw5)

@@ -29,6 +29,13 @@
 * [Convolutional Neural Networks](./slides/Neural%20Networks%20%26%20Deep%20Learning/Module%206%20-%20Lecture%2029%20-%20Convolutional%20Neural%20Networks.pdf)
 * [Recurrent Neural Networks](./slides/Neural%20Networks%20%26%20Deep%20Learning/Module%206%20-%20Lecture%2030%20-%20Recurrent%20Neural%20Networks.pdf)
 
+### Dimensionality Reduction via Transformation (PCA, LDA, Autoencoders) and Unsupervised Learning
+* [Dimensionality Reduction-Principal Component Analysis](./slides/Dimensionality%20Reduction%20via%20Transformation%20(PCA%2C%20LDA%2C%20Autoencoders)%20and%20Unsupervised%20Learning/Module%207%20-%20Lecture%2033%20-%20Dimensionality%20Reduction.pdf)
+* [Unsupervised Learning: K-means and Hierarchical Clustering](./slides/Dimensionality%20Reduction%20via%20Transformation%20(PCA%2C%20LDA%2C%20Autoencoders)%20and%20Unsupervised%20Learning/Module%208%20-%20Lecture%2035%20-%20kmeans%20and%20hierarchical%20clustering.pdf)
+* [Unsupervised Learning: Gaussian Mixture Models and Expectation Maximization](./slides/Dimensionality%20Reduction%20via%20Transformation%20(PCA%2C%20LDA%2C%20Autoencoders)%20and%20Unsupervised%20Learning/Module%208%20-%20Lecture%2036%20-%20EM%20and%20GMM.pdf)
+* [Unsupervised Learning with Neural Networks](./slides/Dimensionality%20Reduction%20via%20Transformation%20(PCA%2C%20LDA%2C%20Autoencoders)%20and%20Unsupervised%20Learning/Module%207%20-%20Lecture%2037%20-%20Unsupervised%20Learning%20with%20Neural%20Networks.pdf)
+* [Responsible AI](./slides/Dimensionality%20Reduction%20via%20Transformation%20(PCA%2C%20LDA%2C%20Autoencoders)%20and%20Unsupervised%20Learning/Module%208%20-%20Lecture%2038%20-%20Responsible%20AI.pdf)
+
 ## Homeworks
 * Homework 1: [Linear Regression and Logistic Regression](./hw/hw1)
 * Homework 2: [Decision Trees, Random Forests, and Boosting](./hw/hw2)

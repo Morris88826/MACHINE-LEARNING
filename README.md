@@ -1,6 +1,6 @@
 # Machine Learning
 ## Overview
-This is the repository for the course CSCE 633 - Machine Learning at Texas A&M University (Fall 2024) taught by Professor [Bobak Mortazavi](https://engineering.tamu.edu/cse/profiles/mortazavi-bobak.html). The course provides a comprehensive introduction to the fundamentals and advanced concepts in machine learning, focusing on both theoretical foundations and practical applications.
+This is the repository for the course CSCE 633 - Machine Learning at Texas A&M University (Spring 2024) taught by Professor [Bobak Mortazavi](https://engineering.tamu.edu/cse/profiles/mortazavi-bobak.html). The course provides a comprehensive introduction to the fundamentals and advanced concepts in machine learning, focusing on both theoretical foundations and practical applications.
 
 ## Lectures
 ### Linear Models

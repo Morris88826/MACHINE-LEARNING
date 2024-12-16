@@ -1,4 +1,5 @@
-# CSCE - 633 Machine Learning
+# Machine Learning
+## Overview
 
 ## Lectures
 ### Linear Models
